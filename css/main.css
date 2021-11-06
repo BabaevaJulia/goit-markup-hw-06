@@ -419,7 +419,7 @@ body {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-  /* background-color: var(--accent-color); */
+  background-color: var(--accent-color);
   background-image: url(/images/check.svg);
 }
 

@@ -419,16 +419,12 @@ body {
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
-  background-color: var(--accent-color);
+  /* background-color: var(--accent-color); */
   background-image: url(/images/check.svg);
 }
 
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
   outline: 2px solid var(--accent-color);
-}
-
-.link-policy {
-  color: var(--accent-color);
 }
 
 .modal-form-button {
